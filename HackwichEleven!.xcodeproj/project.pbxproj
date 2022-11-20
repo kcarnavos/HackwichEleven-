@@ -16,6 +16,7 @@
 		214302662929DDE4000E74D0 /* HackwichEleven_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214302652929DDE4000E74D0 /* HackwichEleven_Tests.swift */; };
 		214302702929DDE4000E74D0 /* HackwichEleven_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2143026F2929DDE4000E74D0 /* HackwichEleven_UITests.swift */; };
 		214302722929DDE4000E74D0 /* HackwichEleven_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214302712929DDE4000E74D0 /* HackwichEleven_UITestsLaunchTests.swift */; };
+		214302812929EBB9000E74D0 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214302802929EBB9000E74D0 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2143026B2929DDE4000E74D0 /* HackwichEleven!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HackwichEleven!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2143026F2929DDE4000E74D0 /* HackwichEleven_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichEleven_UITests.swift; sourceTree = "<group>"; };
 		214302712929DDE4000E74D0 /* HackwichEleven_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichEleven_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		214302802929EBB9000E74D0 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		214302422929DDE3000E74D0 = {
 			isa = PBXGroup;
 			children = (
+				214302802929EBB9000E74D0 /* Restaurant.swift */,
 				2143024D2929DDE3000E74D0 /* HackwichEleven! */,
 				214302642929DDE4000E74D0 /* HackwichEleven!Tests */,
 				2143026E2929DDE4000E74D0 /* HackwichEleven!UITests */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				214302812929EBB9000E74D0 /* Restaurant.swift in Sources */,
 				214302532929DDE3000E74D0 /* ViewController.swift in Sources */,
 				2143024F2929DDE3000E74D0 /* AppDelegate.swift in Sources */,
 				214302512929DDE3000E74D0 /* SceneDelegate.swift in Sources */,

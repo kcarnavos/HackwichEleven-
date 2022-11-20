@@ -20,6 +20,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         centerMapOnLocation(location: initialLocation)
+        
+        let restaurantOne = Restaurant(title: "Kalapawai", type: "American", coordinate: CLLocationCoordinate2D(latitude: 21.346470, longitude: -158.080098))
+        mapView.addAnnotation(restaurantOne)
+        let restaurantTwo = Restaurant(title: "Thai Lao Restaurant", type: "Laotian", coordinate: CLLocationCoordinate2D(latitude: 21.338782160004943, longitude: -158.07784196761477))
+        mapView.addAnnotation(restaurantTwo)
+       
      
     }
     
